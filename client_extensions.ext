@@ -1,0 +1,7 @@
+subjectKeyIdentifier   = hash
+authorityKeyIdentifier = keyid:always, issuer:always
+basicConstraints       = critical, CA:FALSE
+keyUsage               = critical, digitalSignature, keyEncipherment
+subjectAltName         = DNS:example.com, DNS:www.example.com, IP:1.2.3.4, email:email@example.com
+issuerAltName          = issuer:copy
+extendedKeyUsage       = serverAuth, clientAuth
