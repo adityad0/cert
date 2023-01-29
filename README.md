@@ -14,7 +14,7 @@ The program uses `ca_extensions.ext` and `client_extensions.ext` to define all t
 4. Run `ssl_from_csr.py` to generate the client certificate signed by the previously generated root certificate.
 
 Remember to modify the program to use the correct parameters for your SSL certificate such as common name and organization.
-Root certificates are stored in the `cert auth` directory and the client certificates are stored in the `client` directory. Note that both these directories are created if not found. If a root or client certificate is generated and kept in the `cert auth` or `client` directories, the files will be overwritten and cannot be recovered later. Remember to make backups.
+Root certificates are stored in the `cert-auth` directory and the client certificates are stored in the `client` directory. Note that both these directories are created if not found. If a root or client certificate is generated and kept in the `cert-auth` or `client` directories, the files will be overwritten and cannot be recovered later. Remember to make backups.
 
 *Note: All certificates which are self-signed or signed by a certificate generated using this program will not be trusted by most devices/browsers by default unless installed on that device as a trusted root/client certificate.*
 
