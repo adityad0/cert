@@ -1,7 +1,0 @@
-subjectKeyIdentifier   = hash
-authorityKeyIdentifier = keyid:always,issuer:always
-basicConstraints       = critical, CA:TRUE
-keyUsage               = critical, digitalSignature, nonRepudiation, keyEncipherment, dataEncipherment, keyAgreement, keyCertSign
-subjectAltName         = DNS:example.com, DNS:www.example.com
-issuerAltName          = issuer:copy
-extendedKeyUsage       = serverAuth, clientAuth, codeSigning, emailProtection
